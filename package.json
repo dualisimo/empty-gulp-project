@@ -37,6 +37,6 @@
   "homepage": "https://bitbucket.org/lfecko/slevoking-frontend#readme",
   "dependencies": {
     "eslint": "^4.19.1",
-    "hoek": "^5.0.3"
+    "hoek": "4.2.1"
   }
 }
