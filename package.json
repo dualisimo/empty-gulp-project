@@ -1,6 +1,6 @@
 {
   "name": "dualisimo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Slevoking facelift",
   "main": "layouts/index.html",
   "author": "Michal Rusina",
@@ -34,5 +34,8 @@
     "type": "git",
     "url": "git+https://Dualisimo@bitbucket.org/lfecko/slevoking-frontend.git"
   },
-  "homepage": "https://bitbucket.org/lfecko/slevoking-frontend#readme"
+  "homepage": "https://bitbucket.org/lfecko/slevoking-frontend#readme",
+  "dependencies": {
+    "eslint": "^4.19.1"
+  }
 }
