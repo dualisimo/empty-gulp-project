@@ -1,5 +1,5 @@
 <?php require_once('header.php'); ?>
 
-<h3>Content</h3>
+<div class="bounce" id="ball"></div>
 
 <?php require_once('footer.php'); ?>

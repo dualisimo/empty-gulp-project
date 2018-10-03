@@ -1,5 +1,5 @@
 
-<footer>footer</footer>
+<footer></footer>
 
 <script src="../public/main.js"></script>
 
