@@ -1,6 +1,9 @@
 dist
 .env
 
+# bower
+bower_components
+
 # OSX
 .DS_Store
 
