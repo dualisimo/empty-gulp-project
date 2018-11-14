@@ -12,10 +12,10 @@ function movement() {
     switch (direction) {
         case 1:
             if (positions[0] - 100 > 0) {
-                moveTop(changingColor(color), 100);
+                moveLeft(changingColor(color), 100);
                 break;
             }
-            moveTop(changingColor(color), positions[0])
+            moveLeft(changingColor(color), positions[0])
             break;
         case 2:
             if (positions[0] + 100 <= dimensions[0] - size) {
@@ -59,11 +59,12 @@ function changingColor(numberColor) {
     return colorCode;
 }
 
-function moveTop(chooseColor, move) {
+function moveLeft(chooseColor, move) {
     const bounce = 100 - move;
 
-    $("#ball").css("border-color", chooseColor).animate( {left: '-=' + move},
-        bounce !== 0 ? 250 : 500, 'swing',
+    $("#ball").css("border-color", chooseColor).animate({left: '-=' + move},
+        bounce !== 0 ? 250 : 500,
+        'swing',
         bounce !== 0 ? function() {
             setTimeout(function() {
                 $("#ball").animate({left: '+=' + bounce}, 250);
